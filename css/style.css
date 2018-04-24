@@ -1,0 +1,23 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.img-fluid{
+    width:150px;  
+}
+.display-3{
+    margin: 15px;
+    padding-bottom: 25px
+}
+.container{
+    margin: 0 auto;
+}
+.col-sm{
+    text-align: center;
+}
+.lead{
+    font-size: 2.2em;
+}

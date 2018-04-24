@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Body Mp3</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script language="javascript" type="text/javascript" src="p5.js"></script>
+    <script language="javascript" type="text/javascript" src="../../lib/p5.serialport.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main role="main" class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/apple_music_logo.png" class="img-fluid" />
+
+                </div>
+                <div class="col-sm">
+                    <img src="img/spotify.png" class="img-fluid" />
+
+                </div>
+                <div class="col-sm">
+                    <img src="img/Play_music_triangle.svg.png" class="img-fluid" />
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="starter-template">
+            <script language="javascript" type="text/javascript" src="js/sketch.js"></script>
+            <h1 class="display-4">Start running to play music</h1>
+            <p class="lead" id="run">Running value:</p>
+            <script>
+                document.getElementById("demo").innerHTML = "Running value: " + t1;
+            </script>
+            <h1 class="display-4">Jump to skip song</h1>
+            <p class="lead" id="pause">Jumping value:</p>
+            <script>
+                document.getElementById("demo2").innerHTML = "Jumping value: " + t2;
+            </script>
+        </div>
+
+    </main>
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
